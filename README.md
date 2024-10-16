@@ -1,5 +1,5 @@
 # All about CvSU (Cavite State University) Computer Science Curriculum
-### Why did a make this? So that others can hopefully use this as a reference or guide for their endeavors.
+Why did a make this? So that others can hopefully use this as a reference or guide for their endeavors.
 
 ## Freshman Year (1st Year)
 - Subjects:
