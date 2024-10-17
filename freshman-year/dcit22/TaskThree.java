@@ -5,12 +5,11 @@ import java.util.Scanner;
 
 class TaskThree {
     public static void main(String[] args) {
-        // You are given a task to make a Java program that accepts user input (Celsius)
-        // you are tasked to convert the user input to Fahrenheit
-        // and use conditional statements to determine whether it is hot or cold
-        // Additional: You must also use comments to explain your code
+        // Task:
+        // 1. Accept user input which will serve as the celsius temperature
+        // 2. Conver it to Fahrenheit
+        // 3. Using conditional statements, determine whether it is hot or cold.
 
-        // A reference or collects/takes the user input
         Scanner scan = new Scanner(System.in);
 
         // Prompt the user for their input
