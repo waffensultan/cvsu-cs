@@ -18,8 +18,8 @@ class TaskThree {
 
         // Do the necessary calculations to convert the user input in Celsius to Fahrenheit
         double first_step = celsius * 9;
-        double second_step = step_one / 5;
-        double final_step  = step_two + 32;
+        double second_step = first_step / 5;
+        double final_step  = second_step + 32;
 
         // Display the results
         System.out.printf("Step 1: " + celsius + " * " + " 9 " + " = " + first_step + "\n");
@@ -27,10 +27,12 @@ class TaskThree {
         System.out.printf("Step 3: " + second_step + " + " + " 32 " + " = " + final_step + " \n");
 
         // Determine whether the temperature in Fahrenheit form is cold or hot
-        if (step_three < 50) {
+        if (final_step < 50) {
             System.out.println("The temperature given is cold.");
         } else {
             System.out.println("The temperature given is hot.");
         }
+
+        scan.close();
     }
 }
